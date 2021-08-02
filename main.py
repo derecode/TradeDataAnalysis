@@ -54,6 +54,7 @@ tab_name = "_".join("volume and share of EU imports and exports by trade type".s
 table = eu_flow.to_frame('trillion').unstack().round(3)
 table.columns = [f"{b} ({a} €)" for a, b in table.columns]
 table.to_markdown(os.path.join(figure_path, tab_name + ".md"), tablefmt='pretty')
+table.to_csv(os.path.join(figure_path, tab_name + ".csv"))
 
 # %% prepare the graph and export to figures
 sns.set_style("whitegrid")
