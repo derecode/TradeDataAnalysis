@@ -23,5 +23,5 @@ To install all of the libraries at once from a conda environment, run the follow
 ## Information
 
 ### Visualisations
-- **Pice Chart:** A pice chart a graph that illustrates the proportion represented by each components from the total quantity.
+- **Pie Chart:** A pie chart a graph that illustrates the proportion represented by each components from the total quantity.
 - **Bar Plots:** Classical bar plots that are good for visualisation and comparison of different data statistics, especially comparing statistics of feature variables.
