@@ -6,6 +6,7 @@ __pycache__/
 # miscellaneous stuff and big data
 misc/
 data/
+.idea/
 
 # C extensions
 *.so
