@@ -16,7 +16,7 @@ with py7zr.SevenZipFile(os.path.join(os.getcwd(), 'data', 'full202052.7z'), mode
     z.extractall()
 
 # read the dataset
-df = pd.read_csv(os.path.join(os.getcwd(), 'data', 'full202052.dat'))
+df = pd.read_csv(os.path.join(os.getcwd(), 'full202052.dat'))
 
 # %% exclude unimportant rows and columns to save
 # exclude rows with total value by type of trade flow
@@ -49,7 +49,13 @@ df = (df.replace({'FLOW': {1: 'imports', 2: 'exports'}})
 units = 1e+012  # rade volume in billion euros
 eu_flow = df.groupby(['FLOW', 'TRADE_TYPE'])['VALUE_IN_EUROS'].sum() / units
 
-# plotting
+# %% exporting results of trade volume to a table
+tab_name = "_".join("volume and share of EU imports and exports by trade type".split())
+table = eu_flow.to_frame('trillion').unstack().round(3)
+table.columns = [f"{b} ({a} €)" for a, b in table.columns]
+table.to_markdown(os.path.join(figure_path, tab_name + ".md"), tablefmt='pretty')
+
+# %% prepare the graph and export to figures
 sns.set_style("whitegrid")
 fig = plt.figure(constrained_layout=True)
 specs = gridspec.GridSpec(ncols=2, nrows=2, figure=fig)
@@ -99,16 +105,16 @@ sns.set_color_codes('muted')
 extra_data = shares.loc[idx[:, 'Extra-EU'], :].reset_index().set_index('DECLARANT_ISO')
 extra_data = extra_data.nlargest(5, 'exports').sort_values(by='exports', ascending=False)
 extra_data.plot.bar(ax=ax1)
-ax1.set_title('Contribution of each member to extra-EU trade \n (top 5 exporters)')
-ax1.set_xlabel(None)
+ax1.set_title('Contribution of Member States to extra-EU trade')
+ax1.set_xlabel("Top 5 exporting Member States")
 ax1.set_ylabel("Percent")
 ax1.legend(ncol=1, loc='upper right')
 
 intra_data = shares.loc[idx[:, 'Extra-EU'], :].reset_index().set_index('DECLARANT_ISO')
 intra_data = intra_data.nlargest(5, 'exports').sort_values(by='exports', ascending=False)
 intra_data.plot.bar(ax=ax2)
-ax2.set_title('Contribution of each member to intra-EU trade \n (top 5 exporters)')
-ax2.set_xlabel(None)
+ax2.set_title('Contribution of Member States to Intra-EU trade')
+ax2.set_xlabel('Top 5 exporting Member States')
 ax2.legend(ncol=1, loc='upper right')
 sns.despine(left=True, top=True)
 fig.tight_layout()
