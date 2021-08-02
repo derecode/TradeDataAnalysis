@@ -14,7 +14,7 @@ Python libraries used:
 ## Installation
 To install all of the libraries at once from a conda environment, run the following:
 
-- `conda install numpy pandas matplotlib seaborn`
+- `conda install numpy pandas matplotlib seaborn py7zr`
 
 ## Files
 - **main.py:** Main python script file to produce intended tables and figures outputs.
