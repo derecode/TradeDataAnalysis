@@ -35,5 +35,10 @@ To install all of the libraries at once from a conda environment, run the follow
 ![Example](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Contribution_of_EU_Member_States_to_intra-EU_and_extra-EU_trade.png)
 
 
-- **Tables:**:
-![Example](https://github.com/derecode/TradeDataAnalysis/blob/main/tables/volume_and_share_of_EU_imports_and_exports_by_trade_type.csv)
+- **Tables:**: Example
+
+|FLOW   |Extra-EU (trillion €)|Intra-EU (trillion €)|
+|-------|---------------------|---------------------|
+|exports|1.672                |2.888                |
+|imports|1.573                |2.824                |
+
