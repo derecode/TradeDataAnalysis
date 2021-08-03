@@ -24,5 +24,8 @@ To install all of the libraries at once from a conda environment, run the follow
 
 ### Visualisations
 - **Pie Chart:** A pie chart a graph that illustrates the proportion represented by each components from the total quantity.
-- [Example:](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Major_trading_partners_and_their_shares_in_Extra-EU.png)
+
+ ![Example](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Major_trading_partners_and_their_shares_in_Extra-EU.png)
+
+ 
 - **Bar Plots:** Classical bar plots that are good for visualisation and comparison of different data statistics, especially comparing statistics of feature variables.
