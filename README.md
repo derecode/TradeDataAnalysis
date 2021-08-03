@@ -27,5 +27,13 @@ To install all of the libraries at once from a conda environment, run the follow
 
  ![Example](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Major_trading_partners_and_their_shares_in_Extra-EU.png)
 
+![Example](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/EU_trade_flows_by_BEC_product_category_and_trade_type.png)
+
  
 - **Bar Plots:** Classical bar plots that are good for visualisation and comparison of different data statistics, especially comparing statistics of feature variables.
+
+![Example](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Contribution_of_EU_Member_States_to_intra-EU_and_extra-EU_trade.png)
+
+
+- **Tables:**:
+![Example](https://github.com/derecode/TradeDataAnalysis/blob/main/tables/volume_and_share_of_EU_imports_and_exports_by_trade_type.csv)
