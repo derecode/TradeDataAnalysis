@@ -23,17 +23,29 @@ To install all of the libraries at once from a conda environment, run the follow
 ### Visualisations
 - **Pie Chart:** A pie chart a graph that illustrates the proportion represented by each components from the total quantity.
 
- ![Example](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Major_trading_partners_and_their_shares_in_Extra-EU.png)
+ ..* Example 1: EU's main trading partners and their contribution to Extra-EU trade
+ ![alt-text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Major_trading_partners_and_their_shares_in_Extra-EU.png)
 
-![Example](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/EU_trade_flows_by_BEC_product_category_and_trade_type.png)
 
- 
+..* Example 2: The contribution of capital, consumption and intermediate goods to Intra-Eu and Extra-EU trade
+
+![alt-text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/EU_trade_flows_by_BEC_product_category_and_trade_type.png)
+
+..* Additional figures that can be found under the `/figures` include:
+...* The contribution of largest exporting Member States to EU trade: by product and trade type
+  ![alt-text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Largest_exporting_Members_States_by_BEC_product_category.png)
+  
+  
+...* The contribution of largest importing Member States to EU trade: by product and trade type
+ ![alt-text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Largest_importing_Members_States_by_BEC_product_category.png)
+  
 - **Bar Plots:** Classical bar plots that are good for visualisation and comparison of different data statistics, especially comparing statistics of feature variables.
 
-![Example](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Contribution_of_EU_Member_States_to_intra-EU_and_extra-EU_trade.png)
+..* Example: The contribution of largest trading Member States to EU trade
 
-
-[Additional figures can be found under the `/figures` directory](https://github.com/derecode/TradeDataAnalysis/blob/main/figures)
+ ![alt text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Contribution_of_EU_Member_States_to_intra-EU_and_extra-EU_trade.png)
+..* [Additional figures can be found under the `/figures` directory](https://github.com/derecode/TradeDataAnalysis/blob/main/figures), including 
+...* 
 
 
 
