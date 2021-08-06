@@ -45,4 +45,4 @@ To install all of the libraries at once from a conda environment, run the follow
 |exports|1.672                |2.888                |
 |imports|1.573                |2.824                |
 
-[Additional tables can be found under the `/tables' directory](https://github.com/derecode/TradeDataAnalysis/blob/main/tables)
+[Additional tables can be found under the `/tables` directory](https://github.com/derecode/TradeDataAnalysis/blob/main/tables)
