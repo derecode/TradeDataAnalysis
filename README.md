@@ -40,6 +40,7 @@ To install all of the libraries at once from a conda environment, run the follow
 
     - __Additional pie charts that can be found under the `/figures` directory include__:
         - The contribution of largest exporting Member States to EU trade: by product and trade type
+        
         ![alt-text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Largest_exporting_Members_States_by_BEC_product_category.png)
   
   
@@ -53,11 +54,14 @@ To install all of the libraries at once from a conda environment, run the follow
     - __Example__: The contribution of largest trading Member States to EU trade
 
      ![alt text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Contribution_of_EU_Member_States_to_intra-EU_and_extra-EU_trade.png)
-    - [Additional `barplots` that can be found under the `/figures` directory](https://github.com/derecode/TradeDataAnalysis/blob/main/figures), includes
+     
+    - [Additional `barplots` that can be found under the `/figures` directory](https://github.com/derecode/TradeDataAnalysis/blob/main/figures), include
+    
         - The volume and share of EU imports and exports by trade type:
          ![alt-text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/volume_and_share_of_EU_imports_and_exports_by_trade_type.png)
         
         - Trade diversification: the number of traded products by `BEC` classification by Member States relative to the EU total:
+        
          ![alt-text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Share_of_the_number_of_imported_and_exported_products_from_the_EU_total.png)
 
 ---
