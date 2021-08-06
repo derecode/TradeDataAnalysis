@@ -28,15 +28,15 @@ To install all of the libraries at once from a conda environment, run the follow
 ### Visualisations
 - **Pie Chart:** A pie chart a graph that illustrates the proportion represented by each components from the total quantity.
 
-    - Example 1: EU's main trading partners and their contribution to Extra-EU trade
+    - __Example 1__: EU's main trading partners and their contribution to Extra-EU trade
     ![alt-text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Major_trading_partners_and_their_shares_in_Extra-EU.png)
 
 
-    - Example 2: The contribution of capital, consumption and intermediate goods to Intra-Eu and Extra-EU trade
+    - __Example 2__: The contribution of capital, consumption and intermediate goods to Intra-Eu and Extra-EU trade
 
     ![alt-text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/EU_trade_flows_by_BEC_product_category_and_trade_type.png)
 
-    - Additional pie charts that can be found under the `/figures` directory include:
+    - __Additional pie charts that can be found under the `/figures` directory include__:
         - The contribution of largest exporting Member States to EU trade: by product and trade type
         ![alt-text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Largest_exporting_Members_States_by_BEC_product_category.png)
   
@@ -48,7 +48,7 @@ To install all of the libraries at once from a conda environment, run the follow
   
 - **Bar Plots:** Classical bar plots that are good for visualisation and comparison of different data statistics, especially comparing statistics of feature variables.
 
-    - Example: The contribution of largest trading Member States to EU trade
+    - __Example__: The contribution of largest trading Member States to EU trade
 
      ![alt text](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Contribution_of_EU_Member_States_to_intra-EU_and_extra-EU_trade.png)
     - [Additional `barplots` that can be found under the `/figures` directory](https://github.com/derecode/TradeDataAnalysis/blob/main/figures), includes
@@ -60,11 +60,12 @@ To install all of the libraries at once from a conda environment, run the follow
 
 ---
 
-- **Tables:** Example
+- **Tables:** 
+    - __Example__:
+    
+    |FLOW   |Extra-EU (trillion €)|Intra-EU (trillion €)|
+    |-------|---------------------|---------------------|
+    |exports|1.672                |2.888                |
+    |imports|1.573                |2.824                |
 
-|FLOW   |Extra-EU (trillion €)|Intra-EU (trillion €)|
-|-------|---------------------|---------------------|
-|exports|1.672                |2.888                |
-|imports|1.573                |2.824                |
-
-[Additional tables can be found under the `/tables` directory](https://github.com/derecode/TradeDataAnalysis/blob/main/tables)
+    - [__Additional tables can be found under the `/tables` directory__](https://github.com/derecode/TradeDataAnalysis/blob/main/tables)
