@@ -1,7 +1,5 @@
 # Analysis of EU trade data
 
-# Python Data Science
-
 ## Analysis of EU trade data for a typical period based on Eurostat data
 The project includes python code needed to analyse the pattern of EU trade data for a typical period based on Eurostat data.
 
@@ -35,7 +33,7 @@ To install all of the libraries at once from a conda environment, run the follow
 ![Example](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Contribution_of_EU_Member_States_to_intra-EU_and_extra-EU_trade.png)
 
 
-- **Tables:**: Example
+- **Tables:** Example
 
 |FLOW   |Extra-EU (trillion €)|Intra-EU (trillion €)|
 |-------|---------------------|---------------------|
