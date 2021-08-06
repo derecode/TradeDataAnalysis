@@ -1,5 +1,7 @@
 # Analysis of EU trade data
 
+---
+
 ## Analysis of EU trade data for a typical period based on Eurostat data
 The project includes python code needed to analyse the pattern of EU trade data for a typical period based on Eurostat data.
 
@@ -63,9 +65,9 @@ To install all of the libraries at once from a conda environment, run the follow
 - **Tables:** 
     - __Example__:
     
-    |FLOW   |Extra-EU (trillion €)|Intra-EU (trillion €)|
-    |-------|---------------------|---------------------|
-    |exports|1.672                |2.888                |
-    |imports|1.573                |2.824                |
+        |FLOW   |Extra-EU (trillion €)|Intra-EU (trillion €)|
+        |-------|---------------------|---------------------|
+        |exports|1.672                |2.888                |
+        |imports|1.573                |2.824                |
 
     - [__Additional tables can be found under the `/tables` directory__](https://github.com/derecode/TradeDataAnalysis/blob/main/tables)
