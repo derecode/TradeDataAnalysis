@@ -33,7 +33,7 @@ To install all of the libraries at once from a conda environment, run the follow
 ![Example](https://github.com/derecode/TradeDataAnalysis/blob/main/figures/Contribution_of_EU_Member_States_to_intra-EU_and_extra-EU_trade.png)
 
 
-**Additional figures can be found:**(https://github.com/derecode/TradeDataAnalysis/blob/main/figures)
+[Additional figures can be found under the `/figures` directory](https://github.com/derecode/TradeDataAnalysis/blob/main/figures)
 
 
 
@@ -45,4 +45,4 @@ To install all of the libraries at once from a conda environment, run the follow
 |exports|1.672                |2.888                |
 |imports|1.573                |2.824                |
 
-**Additional tables can be found:**(https://github.com/derecode/TradeDataAnalysis/blob/main/tables)
+[Additional tables can be found under the `/tables' directory](https://github.com/derecode/TradeDataAnalysis/blob/main/tables)
